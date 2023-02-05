@@ -1,0 +1,19 @@
+main[role="main"] {
+  display: flex;
+  flex-direction: row;
+}
+
+aside[role="navigation"] {
+  flex: 0 0; 
+  order: 1;
+
+  height: 100vh;
+}
+
+section[role="main"] {
+  flex: 1 0;
+}
+
+header {
+  flex: 0;
+}
