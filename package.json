@@ -8,8 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "plop": "plop",
-    "css": "postcss src/assets/css/index.css --dir public",
-    "css:watch": "postcss src/assets/css/index.css --dir public --watch"
+    "css": "postcss src/assets/css/index.css -o src/assets/css/index.min.css",
+    "css:watch": "postcss src/assets/css/index.css -o src/assets/css/index.min.css --watch"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.14",
